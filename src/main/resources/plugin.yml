@@ -1,0 +1,4 @@
+name: Hammers
+version: '${project.version}'
+main: com.temmy.hammers.Main
+api-version: 1.17
