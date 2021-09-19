@@ -290,7 +290,10 @@ public class hammer {
             case "Scythe":
                 switch (clickType) {
                     case LEFT -> {
-                        excludedBlocks.addAll(Arrays.asList(Material.WHEAT, Material.BEETROOTS, Material.CARROTS, Material.POTATOES));
+                        excludedBlocks.addAll(Arrays.asList(Material.WHEAT, Material.BEETROOTS, Material.CARROTS,
+                                Material.POTATOES, Material.ACACIA_LEAVES,Material.AZALEA_LEAVES, Material.BIRCH_LEAVES,
+                                Material.DARK_OAK_LEAVES, Material.FLOWERING_AZALEA_LEAVES, Material.JUNGLE_LEAVES,
+                                Material.OAK_LEAVES, Material.SPRUCE_LEAVES));
                         for (int i = 0; i < depth; i++) {
                             for (int x = -radius; x <= radius; x++)
                                 for (int y = -radius; y <= radius; y++)
